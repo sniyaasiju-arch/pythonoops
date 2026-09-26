@@ -23,6 +23,17 @@ class studentclass:
         self.preferred_communication_method = ""
 
 
-def setUserNameAndPassword(self,email,password):
-    self.email_address = email
-    self.password = password
+    def setUserNameAndPassword(self,email,password):
+        self.email_address = email
+        self.password = password
+
+    def setBasicDetails(self):
+        self.full_name = input("enter your full name")
+        self.date_of_birth_or_age = input("enter your date of birth or age")
+        self.gender = input("enter your gender")
+        self.preferred_language = input("enter your preferred language")
+        self.school_college_name = input("enter your school or college name")
+        self.class_grade = input("enter your class or grade")
+        self.board_curriculum = input("enter your board or curriculum")
+        self.academic_year = input("enter your academic year")
+
